@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fiche de révision — Énergie électrique</title>
+<style>
+  :root { --blue:#173b8f; --orange:#f39a00; --yellow:#ffd900; --bg:#f5f7fb; --card:#fff; --text:#172033; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:Arial,Helvetica,sans-serif; background:var(--bg); color:var(--text); line-height:1.5; }
+  header { background:linear-gradient(135deg,var(--blue),#2458bd); color:white; padding:28px 20px; }
+  header h1 { margin:0 0 6px; font-size:clamp(25px,5vw,42px); }
+  header p { margin:0; opacity:.9; }
+  main { max-width:1000px; margin:auto; padding:20px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:16px; }
+  section { background:var(--card); border-radius:14px; padding:18px; margin-bottom:16px; box-shadow:0 3px 12px #00000010; }
+  h2 { color:var(--blue); margin-top:0; font-size:22px; }
+  h3 { color:#a85d00; margin-bottom:8px; }
+  .formula { background:#eef3ff; border-left:5px solid var(--blue); padding:12px 15px; border-radius:8px; font-size:1.08em; margin:9px 0; }
+  .important { background:#fff5cf; border-left:5px solid var(--orange); padding:12px 15px; border-radius:8px; }
+  .chain { font-weight:bold; text-align:center; background:#f1f4f8; padding:12px; border-radius:9px; }
+  .numbers { display:grid; grid-template-columns:repeat(auto-fit,minmax(130px,1fr)); gap:10px; }
+  .number { background:#f7f9fc; padding:12px; border-radius:10px; text-align:center; }
+  .number strong { display:block; font-size:1.35em; color:var(--blue); }
+  table { width:100%; border-collapse:collapse; }
+  th,td { padding:9px; border-bottom:1px solid #ddd; text-align:left; }
+  th { background:#f1f4f8; }
+  .footer { text-align:center; color:#667085; font-size:.9em; padding:10px; }
+  code { font-size:1.05em; }
+</style>
+</head>
+<body>
+<header>
+  <h1>⚡ Fiche de révision — Énergie électrique</h1>
+  <p>Terminale STI2D • Production, stockage et distribution de l’énergie électrique en Guadeloupe</p>
+</header>
+
+<main>
+<section>
+  <h2>🎯 Les chiffres à connaître</h2>
+  <div class="numbers">
+    <div class="number"><strong>1689 GWh</strong>Consommation électrique 2020</div>
+    <div class="number"><strong>60 %</strong>Pétrole</div>
+    <div class="number"><strong>17 %</strong>Charbon</div>
+    <div class="number"><strong>23,32 %</strong>Énergies renouvelables</div>
+    <div class="number"><strong>40,7 %</strong>Rendement thermique global</div>
+    <div class="number"><strong>14,5 MW</strong>Géothermie</div>
+  </div>
+</section>
+
+<div class="grid">
+<section>
+  <h2>🌍 Sources d’énergie</h2>
+  <h3>Fossiles</h3>
+  <p>Pétrole, charbon → non renouvelables, émissions importantes de CO₂.</p>
+  <h3>Renouvelables</h3>
+  <p>Solaire, éolien, hydraulique, géothermie, biomasse.</p>
+</section>
+
+<section>
+  <h2>🔢 Conversions</h2>
+  <div class="formula"><b>1 GWh = 1000 MWh</b></div>
+  <div class="formula"><b>1 MWh = 1000 kWh</b></div>
+  <div class="formula"><b>1 GWh = 1 000 000 kWh</b></div>
+</section>
+</div>
+
+<section>
+  <h2>📐 Les 4 formules indispensables</h2>
+  <div class="formula"><b>Rendement :</b> η = E<sub>utile</sub> / E<sub>entrée</sub></div>
+  <div class="formula"><b>Énergie d’entrée :</b> E<sub>entrée</sub> = E<sub>utile</sub> / η</div>
+  <div class="formula"><b>Puissance :</b> P = U × I</div>
+  <div class="formula"><b>Énergie :</b> E = P × t</div>
+  <div class="formula"><b>CO₂ :</b> masse de CO₂ = énergie × facteur d’émission</div>
+</section>
+
+<div class="grid">
+<section>
+  <h2>🔥 Centrale thermique</h2>
+  <div class="chain">Combustible → chaleur → turbine → alternateur → électricité</div>
+  <ul>
+    <li>Chaudière → produit la chaleur</li>
+    <li>Turbine → énergie thermique → mécanique</li>
+    <li>Alternateur → mécanique → électrique</li>
+    <li>Transformateur → adapte la tension</li>
+  </ul>
+  <p><b>Rendements :</b> 76 % × 60 % × 92 % × 97 % ≈ <b>40,7 %</b>.</p>
+</section>
+
+<section>
+  <h2>🌱 Biomasse</h2>
+  <div class="chain">Biomasse → chaleur → turbine → alternateur → électricité</div>
+  <p>En Guadeloupe : <b>bagasse</b>, résidu de canne à sucre.</p>
+  <p><b>1 kg de bagasse = 2,2 kWh</b></p>
+  <p><b>1 tonne de canne → 300 kg de bagasse</b></p>
+</section>
+
+<section>
+  <h2>🌋 Géothermie</h2>
+  <div class="chain">Chaleur du sous-sol → turbine → alternateur → électricité</div>
+  <p>Énergie renouvelable liée aux zones volcaniques. Dans le document : <b>14,5 MW</b>.</p>
+</section>
+
+<section>
+  <h2>☀️ Photovoltaïque</h2>
+  <div class="chain">Soleil → panneau → électricité → onduleur → réseau</div>
+  <p>L’onduleur transforme le <b>courant continu</b> en <b>courant alternatif</b>.</p>
+  <p><b>P = U × I</b> • panneau étudié : <b>310 W</b> • tension nominale : <b>31,9 V</b></p>
+</section>
+</div>
+
+<section>
+  <h2>☀️ Photovoltaïque : notions à ne pas confondre</h2>
+  <table>
+    <tr><th>Notion</th><th>Unité</th><th>Signification</th></tr>
+    <tr><td>Irradiance</td><td>W/m²</td><td>Puissance solaire reçue par surface</td></tr>
+    <tr><td>Irradiation</td><td>kWh/m²</td><td>Énergie solaire reçue pendant une durée</td></tr>
+  </table>
+  <div class="formula"><b>Nombre de panneaux :</b> N = P<sub>installation</sub> / P<sub>panneau</sub></div>
+  <p>Exemple du sujet : 2360 kW = 2 360 000 W → 2 360 000 / 310 ≈ <b>7613 panneaux</b>.</p>
+</section>
+
+<section>
+  <h2>📉 Pertes photovoltaïques</h2>
+  <p>À connaître : onduleur <b>3 %</b> • température <b>8 %</b> • câbles/connexions <b>2 %</b> • ombrage <b>10 %</b> • faible éclairement <b>5 %</b> • réflectivité <b>3 %</b>.</p>
+</section>
+
+<section>
+  <h2>🧮 Méthode pour les exercices</h2>
+  <ol>
+    <li>Repérer les données.</li>
+    <li>Repérer ce qui est demandé.</li>
+    <li>Choisir la formule.</li>
+    <li>Mettre les unités compatibles.</li>
+    <li>Calculer et écrire l’unité du résultat.</li>
+  </ol>
+  <div class="important">
+    <b>Exemple :</b> si une source représente 17 % de 1689 GWh :<br>
+    1689 × 0,17 ≈ <b>287 GWh</b>.<br>
+    Puis avec η = 40,7 % : 287 / 0,407 ≈ <b>706 GWh</b> d’énergie d’entrée.
+  </div>
+</section>
+
+<section>
+  <h2>🌍 CO₂</h2>
+  <p>Dans le document :</p>
+  <ul>
+    <li>Charbon : <b>953 g CO₂/kWh</b></li>
+    <li>Pétrole : <b>830 g CO₂/kWh</b></li>
+  </ul>
+  <div class="formula">m<sub>CO₂</sub> = énergie (kWh) × facteur (g/kWh)</div>
+  <p>Attention aux unités : convertir les GWh en kWh avant d’utiliser un facteur en g/kWh.</p>
+</section>
+
+<section>
+  <h2>🧠 À réciter juste avant le contrôle</h2>
+  <div class="important">
+    <p><b>Thermique :</b> combustible → chaleur → turbine → alternateur.</p>
+    <p><b>PV :</b> soleil → panneau → électricité → onduleur.</p>
+    <p><b>Géothermie :</b> chaleur du sol → turbine → alternateur.</p>
+    <p><b>Biomasse :</b> biomasse → chaleur → turbine → alternateur.</p>
+    <p><b>η = Eutile / Eentrée</b> • <b>P = U × I</b> • <b>E = P × t</b></p>
+    <p><b>60 % pétrole • 17 % charbon • 23,32 % renouvelables</b></p>
+  </div>
+</section>
+
+<p class="footer">Fiche condensée pour révision rapide — Terminale STI2D</p>
+</main>
+</body>
+</html>
